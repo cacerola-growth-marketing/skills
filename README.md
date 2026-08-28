@@ -5,7 +5,7 @@ Skills de **growth marketing AI-native**, abiertas y gratis, creadas por
 
 Nuestra tesis es **IA como data**: no IA de demo, sino IA que corre sobre datos
 reales para decidir más rápido y con menos suposiciones. Es el enfoque que
-aplicamos con clientes como **DKS** (agencia de Argentina que atiende a LATAM).
+aplicamos con todos nuestros clientes y que aportamos a nuestros partners.
 Estas skills son ese método de agencia, empaquetado para que lo uses tú.
 
 Cada skill es un `SKILL.md` en formato estándar. Lo leen **Claude Code,
