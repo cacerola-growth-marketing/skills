@@ -46,7 +46,31 @@ las nuestras. El `SKILL.md` te dice qué necesitas y cómo conectarlo.
 
 ## Instalación
 
-### Claude Code
+### Con `npx skills` (recomendado)
+Usa el CLI abierto [`skills`](https://github.com/vercel-labs/skills) (requiere
+Node 22 o superior). Detecta tus agentes (Claude Code, Codex, Cursor y otros) y
+te deja elegir qué skills instalar:
+```bash
+npx skills add cacerola-growth-marketing/skills
+```
+
+Para instalar una sola skill, pasa su nombre con `--skill`:
+```bash
+npx skills add cacerola-growth-marketing/skills --skill geo-ai-visibility-audit
+npx skills add cacerola-growth-marketing/skills --skill agent-ready-seo-audit
+npx skills add cacerola-growth-marketing/skills --skill growth-experiment-designer
+npx skills add cacerola-growth-marketing/skills --skill keyword-gap-dataforseo
+npx skills add cacerola-growth-marketing/skills --skill gsc-quick-wins
+npx skills add cacerola-growth-marketing/skills --skill meta-ads-audit
+npx skills add cacerola-growth-marketing/skills --skill content-brief-por-industria
+npx skills add cacerola-growth-marketing/skills --skill calendario-editorial-30d
+```
+
+Agrega `-g` para instalarla a nivel global (no solo en el proyecto actual) y
+`-a claude-code` para elegir el agente sin preguntas. Para ver la lista sin
+instalar nada: `npx skills add cacerola-growth-marketing/skills --list`.
+
+### Claude Code (manual)
 ```bash
 cp -r skills/sebastian-soffia/geo-ai-visibility-audit ~/.claude/skills/
 ```
