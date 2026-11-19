@@ -46,7 +46,11 @@ FASE 0 - Reglas de trabajo
 
 FASE 1 - Inventario
 1. Recorre la carpeta y sus subcarpetas. Cuenta los archivos por tipo y por subcarpeta.
-2. Lee todo lo que puedas: texto, PDF, planillas e imágenes (pantallazos de WhatsApp, fotos de cuaderno). En audio y video usa la transcripción si existe; si no hay, márcalo como "no leído".
+2. Lee todo lo que puedas: texto, PDF, planillas e imágenes (pantallazos de WhatsApp, fotos de cuaderno). En audio y video usa la transcripción si existe; si no hay, márcalo como "no leído" y anota su duración si puedes obtenerla. Al final del inventario, lista esos archivos y explica cómo transcribirlos para volver a correr el análisis con todo leído:
+   - Si la reunión fue por Meet, Zoom o Teams: activar la transcripción que ya trae la plataforma.
+   - Gratis y en el propio computador (los audios no salen del equipo): Buzz, app de código abierto basada en Whisper.
+   - Pago por uso, más rápido y separa quién habla: ElevenLabs Scribe.
+   Pide dejar cada transcripción como .txt en la misma carpeta y con el mismo nombre del audio o video.
 3. Si el volumen es demasiado grande, sigue este orden de prioridad: transcripciones de reuniones → conversaciones (WhatsApp, correos) → notas y fotos de cuaderno → documentos y planillas → resto. Informa qué quedó sin leer.
 
 FASE 2 - Extracción libre (todavía sin framework)
@@ -96,6 +100,7 @@ FASE 6 - Validación con el dueño
 <formato_salida>
 ## 1. Qué leí
 | Subcarpeta | Archivos | Tipos | Leídos / no leídos |
+Audios y videos sin transcripción: [archivo · duración] y cómo transcribirlos.
 
 ## 2. Mapa de tareas (de mayor a menor Índice)
 | # | Tarea | Quién | F | P | I | Índice | Evidencia (archivo: "cita") |
