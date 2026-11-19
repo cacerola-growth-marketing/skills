@@ -32,6 +32,7 @@ persona que la creó.
 | [`keyword-gap-dataforseo`](skills/sebastian-soffia/keyword-gap-dataforseo) | Keywords donde rankea la competencia y tú no | Tu llave de DataForSEO |
 | [`gsc-quick-wins`](skills/sebastian-soffia/gsc-quick-wins) | Oportunidades de CTR y posición desde Search Console | Tu llave de Search Console |
 | [`meta-ads-audit`](skills/sebastian-soffia/meta-ads-audit) | Auditoría de cuenta Meta Ads (estructura, creativos, CPA) | Tu llave de Meta Ads |
+| [`framework-fpi`](skills/sebastian-soffia/framework-fpi) | Qué tareas de tu pyme escalar primero: Frecuencia × Profundidad × Impacto | Sin llaves |
 
 ### Tamara Paquiri. Contenido, editorial y comunicación.
 [`skills/tamara-paquiri/`](skills/tamara-paquiri)
